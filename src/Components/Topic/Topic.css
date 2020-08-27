@@ -1,0 +1,22 @@
+
+.topic{
+    border: 2px solid tomato;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+/* button{
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    min-width: 10rem;
+    padding: 0 1.6rem;
+    height: 50px;
+    font-weight: bold;
+} */
+/* button:hover{
+    background-color: #4CAF50;
+    color: #fff;
+} */
