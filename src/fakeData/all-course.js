@@ -1,34 +1,34 @@
 var courses = [
     {
         id: 1,
-        name: 'Artificial Intelligence A-Z™: Learn How To Build An AI',
-        instructor: 'Ece Ras',
+        name: 'Hamilton Mazes',
+        instructor: 'Johan De Ruiter',
         price: 57
     },
     {
         id: 2,
-        name: 'Pure Javascript full course',
+        name: 'Pure Javascript full Course',
         instructor: 'Lance Castro',        
         price: Math.floor(10 + Math.random() * 10),
         review: Math.floor(1000 + Math.random() * 1000)
     },
     {
         id: 3,
-        name: 'iOS 13 & Swift 5 - The Complete iOS App Development Bootcamp',
+        name: 'The Complete iOS App Development',
         instructor: 'Christy Perry',       
         price: Math.floor(10 + Math.random() * 10),
         review: Math.floor(1000 + Math.random() * 1000)
     },
     {
         id: 4,
-        name: 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!',
+        name: 'Advanced CSS and Sass: Flexbox, Grid and Animation',
         instructor: 'Dance Castro',       
         price: Math.floor(10 + Math.random() * 10),
         review: Math.floor(1000 + Math.random() * 1000)
     },
     {
         id: 5,
-        name: 'Mongo DB full course',
+        name: 'Mongo DB full Course',
         instructor: 'Nce Aasr',
         price: Math.floor(10 + Math.random() * 10),
         review: Math.floor(1000 + Math.random() * 1000)
@@ -42,7 +42,7 @@ var courses = [
     },
     {
         id: 7,
-        name: 'The Web Development Guideline',
+        name: 'The Web Development and Nodejs',
         instructor: 'Lstr Di',
         price: Math.floor(10 + Math.random() * 10),
         review: Math.floor(1000 + Math.random() * 1000)
@@ -119,11 +119,11 @@ var courses = [
     },
     {
         id: 18,
-        name: 'HTML-5',
+        name: 'Artificial Intelligent: Learn How To Build An AI',
         instructor: 'Lstr Di',       
         price: Math.floor(10 + Math.random() * 10),
         review: Math.floor(1000 + Math.random() * 1000)
     }
-]
+];
 
 export default courses;

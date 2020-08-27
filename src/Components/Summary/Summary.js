@@ -4,7 +4,7 @@ import './Summary.css';
 
 const Summary = (props) => {
     console.log('add' , props);
-    const {instructor, name, price } = props.cart;
+    const {name, price } = props.cart;
 
     return (
         <div className="cart-summary">

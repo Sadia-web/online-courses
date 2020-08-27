@@ -8,9 +8,9 @@ const Topic = (props) => {
     return (
         <div className="topic"> 
              <div>
-                <h4>{name}</h4>
+                <h4>Course Name: {name}</h4>
                 <p>Written by: {instructor}</p>
-                <h3>${price} <p className="text-secondary"></p></h3>
+                <h3>Price: ${price} <p className="text-secondary"></p></h3>
                 <button className="btn btn-success" onClick={() => props.addCourseEventHandler(props.course)}><FontAwesomeIcon icon={faUserPlus} /> Enroll Now</button>
             </div>
         </div>
